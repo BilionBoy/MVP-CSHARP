@@ -18,13 +18,11 @@ namespace MeuMVP.Controllers
             _context = context;
         }
 
-        // GET: Evento
         public async Task<IActionResult> Index()
         {
             return View(await _context.Eventos.ToListAsync());
         }
 
-        // GET: Evento/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -80,9 +78,6 @@ namespace MeuMVP.Controllers
             return View(evento);
         }
 
-        // POST: Evento/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,DataHora,Conteudo,Local,Meta")] Evento evento)
@@ -115,7 +110,6 @@ namespace MeuMVP.Controllers
             return View(evento);
         }
 
-        // GET: Evento/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -133,7 +127,6 @@ namespace MeuMVP.Controllers
             return View(evento);
         }
 
-        // POST: Evento/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
