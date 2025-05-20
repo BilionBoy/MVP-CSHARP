@@ -1,0 +1,230 @@
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+  <!-- Barra superior -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <div class="date">20/05/2025</div>
+            <div class="accessibility">
+                <a href="#" title="Aumentar fonte">A+</a>
+                <a href="#" title="Diminuir fonte">A-</a>
+                <a href="#" title="Alto contraste">Alto Contraste</a>
+                <a href="#" title="Acessibilidade">Acessibilidade</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabeçalho principal -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="/placeholder.svg?height=60&width=60" alt="Brasão do Estado de Rondônia">
+                <div class="portal-title">Portal do Governo do Estado de Rondônia</div>
+            </div>
+            <div class="logo-container">
+                <img src="/placeholder.svg?height=60&width=150" alt="Logo SETIC">
+                <img src="/placeholder.svg?height=60&width=150" alt="Logo SEDUC">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav class="nav-menu">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#">Início</a>
+                <a href="#">Eventos</a>
+                <a href="#">Como Participar</a>
+                <a href="#">Parceiros</a>
+                <a href="#">Resultados</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar...">
+                <button>🔍</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <!-- Banner principal -->
+        <section class="hero-banner">
+            <h1>Eventos Solidários de Rondônia</h1>
+            <p>Unindo forças para ajudar comunidades carentes através da arrecadação de alimentos. Uma iniciativa da SETIC e SEDUC para transformar vidas em todo o estado.</p>
+            <a href="#" class="cta-button">Participe Agora</a>
+        </section>
+
+        <!-- Seção de parceiros -->
+        <section class="partners-section">
+            <h2 class="section-title">Parceiros Institucionais</h2>
+            <div class="partners-logos">
+                <img src="/placeholder.svg?height=80&width=150" alt="Logo SETIC" class="partner-logo">
+                <img src="/placeholder.svg?height=80&width=150" alt="Logo SEDUC" class="partner-logo">
+                <img src="/placeholder.svg?height=80&width=150" alt="Logo ONG" class="partner-logo">
+                <img src="/placeholder.svg?height=80&width=150" alt="Logo Parceiro" class="partner-logo">
+            </div>
+        </section>
+
+        <!-- Próximos eventos -->
+        <h2 class="section-title">Próximos Eventos</h2>
+        <div class="events-grid">
+            <!-- Evento 1 -->
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('/placeholder.svg?height=200&width=350')"></div>
+                <div class="event-content">
+                    <div class="event-date">25 de Maio, 2025 • 09:00</div>
+                    <h3 class="event-title">Campanha de Arrecadação em Porto Velho</h3>
+                    <p class="event-description">Evento de arrecadação de alimentos não perecíveis para famílias em situação de vulnerabilidade social.</p>
+                    <div class="event-location">
+                        <span>📍</span> Centro de Eventos de Porto Velho
+                    </div>
+                    <div class="event-footer">
+                        <a href="#" class="event-button">Saiba Mais</a>
+                        <div class="donation-info">Meta: 500kg de alimentos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evento 2 -->
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('/placeholder.svg?height=200&width=350')"></div>
+                <div class="event-content">
+                    <div class="event-date">10 de Junho, 2025 • 14:00</div>
+                    <h3 class="event-title">Ação Solidária em Ji-Paraná</h3>
+                    <p class="event-description">Evento cultural com arrecadação de alimentos para comunidades ribeirinhas da região.</p>
+                    <div class="event-location">
+                        <span>📍</span> Praça Central de Ji-Paraná
+                    </div>
+                    <div class="event-footer">
+                        <a href="#" class="event-button">Saiba Mais</a>
+                        <div class="donation-info">Meta: 300kg de alimentos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evento 3 -->
+            <div class="event-card">
+                <div class="event-image" style="background-image: url('/placeholder.svg?height=200&width=350')"></div>
+                <div class="event-content">
+                    <div class="event-date">18 de Junho, 2025 • 10:00</div>
+                    <h3 class="event-title">Festival Solidário em Ariquemes</h3>
+                    <p class="event-description">Festival com apresentações culturais e arrecadação de alimentos para instituições de caridade.</p>
+                    <div class="event-location">
+                        <span>📍</span> Parque de Exposições de Ariquemes
+                    </div>
+                    <div class="event-footer">
+                        <a href="#" class="event-button">Saiba Mais</a>
+                        <div class="donation-info">Meta: 400kg de alimentos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de estatísticas -->
+        <section class="stats-section">
+            <h2 class="section-title">Impacto das Nossas Ações</h2>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">15.000kg</div>
+                    <div class="stat-label">Alimentos Arrecadados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">42</div>
+                    <div class="stat-label">Eventos Realizados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3.500</div>
+                    <div class="stat-label">Famílias Beneficiadas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">52</div>
+                    <div class="stat-label">Municípios Atendidos</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de como participar -->
+        <section class="how-to-section">
+            <h2 class="section-title">Como Participar</h2>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <h3 class="step-title">Escolha um Evento</h3>
+                    <p>Selecione um dos eventos disponíveis em nosso calendário que seja mais próximo de você.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <h3 class="step-title">Prepare sua Doação</h3>
+                    <p>Separe alimentos não perecíveis como arroz, feijão, óleo, macarrão e outros itens essenciais.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <h3 class="step-title">Compareça ao Local</h3>
+                    <p>Vá até o local do evento na data e horário marcados para entregar sua doação.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <h3 class="step-title">Compartilhe</h3>
+                    <p>Divulgue a iniciativa nas redes sociais e convide amigos e familiares para participar também.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sobre a Iniciativa</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Objetivos</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                    <li><a href="#">Resultados</a></li>
+                    <li><a href="#">Transparência</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Eventos</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Calendário</a></li>
+                    <li><a href="#">Próximos Eventos</a></li>
+                    <li><a href="#">Eventos Passados</a></li>
+                    <li><a href="#">Galeria de Fotos</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <div class="contact-info">
+                    <span>📱</span> (69) 3216-5000
+                </div>
+                <div class="contact-info">
+                    <span>✉️</span> contato@eventos.ro.gov.br
+                </div>
+                <div class="contact-info">
+                    <span>📍</span> Palácio Rio Madeira, Porto Velho - RO
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon" title="Facebook">f</a>
+                    <a href="#" class="social-icon" title="Instagram">i</a>
+                    <a href="#" class="social-icon" title="Twitter">t</a>
+                    <a href="#" class="social-icon" title="YouTube">y</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Órgãos Responsáveis</h3>
+                <ul class="footer-links">
+                    <li><a href="#">SETIC - Superintendência Estadual de Tecnologia da Informação e Comunicação</a></li>
+                    <li><a href="#">SEDUC - Secretaria de Estado da Educação</a></li>
+                    <li><a href="#">Portal do Governo de Rondônia</a></li>
+                    <li><a href="#">Transparência</a></li>
+                    <li><a href="#">Ouvidoria</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2025 Governo do Estado de Rondônia. Todos os direitos reservados.
+        </div>
+    </footer>
