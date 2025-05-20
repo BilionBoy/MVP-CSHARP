@@ -4,7 +4,7 @@ using MeuMVP.Models;
 
 namespace MeuMVP.Controllers;
 
-public class HomeController : Controller
+public class HomeController : ApplicationController // herda do novo controller base
 {
     private readonly ILogger<HomeController> _logger;
 
@@ -15,12 +15,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        return View(); // usará _HomeLayout.cshtml
     }
 
     public IActionResult Privacy()
     {
-        return View();
+        return View(); // usará _HomeLayout.cshtml
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
