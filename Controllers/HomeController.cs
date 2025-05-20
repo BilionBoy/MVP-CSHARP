@@ -1,31 +1,39 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MeuMVP.Data; 
 using MeuMVP.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MeuMVP.Controllers;
 
-public class HomeController : ApplicationController // herda do novo controller base
+public class HomeController : ApplicationController
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly MeuMVPContext _context; 
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, MeuMVPContext context) 
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
-        return View(); // usará _HomeLayout.cshtml
+        return View();
     }
 
-    public IActionResult Landing()
+    public async Task<IActionResult> Landing()
     {
-        return View();
+        var eventos = await _context.Eventos
+            .OrderBy(e => e.DataHora)
+            .ToListAsync();
+
+        return View(eventos);
     }
 
     public IActionResult Privacy()
     {
-        return View(); // usará _HomeLayout.cshtml
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
