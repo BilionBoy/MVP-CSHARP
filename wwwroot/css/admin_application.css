@@ -611,14 +611,14 @@ a:hover {
 
 .btn-primary {
   background-color: var(--primary);
-  color: white;
-  box-shadow: 0 2px 5px rgba(255, 61, 127, 0.3);
+  color: #000000 !important;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-hover);
+  background-color: var(--primary);
   color: white;
-  box-shadow: 0 4px 10px rgba(255, 61, 127, 0.4);
+  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
   transform: translateY(-1px);
 }
 
