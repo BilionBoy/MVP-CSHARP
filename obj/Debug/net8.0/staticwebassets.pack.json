@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/MeuMVP.bundle.scp.css"
     },
     {
+      "Id": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/css/admin_application.css",
+      "PackagePath": "staticwebassets/css/admin_application.css"
+    },
+    {
       "Id": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },

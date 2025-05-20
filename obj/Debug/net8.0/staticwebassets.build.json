@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vP+gWYCYTZ+tfu/3tXm4qxf0+m0qWMbYERAaEpHfvWE=",
+  "Hash": "VdmghjnZxcA8FifxIxlhcrRvRd0vddjz9/aGxXwwnn4=",
   "Source": "MeuMVP",
   "BasePath": "_content/MeuMVP",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/dhiogo/Projetos/repos/MeuMVP/obj/Debug/net8.0/scopedcss/projectbundle/MeuMVP.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/css/admin_application.css",
+      "SourceId": "MeuMVP",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/",
+      "BasePath": "_content/MeuMVP",
+      "RelativePath": "css/admin_application.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/admin_application.css"
     },
     {
       "Identity": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/favicon.ico",
