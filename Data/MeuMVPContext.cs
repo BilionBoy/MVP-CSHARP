@@ -1,11 +1,16 @@
+// Data/MeuMVPContext.cs
 using Microsoft.EntityFrameworkCore;
+using MeuMVP.Models;
 
-public class MeuMVPContext : DbContext
+namespace MeuMVP.Data
 {
-    public MeuMVPContext(DbContextOptions<MeuMVPContext> options)
-        : base(options)
+    public class MeuMVPContext : DbContext
     {
-    }
+        public MeuMVPContext(DbContextOptions<MeuMVPContext> options)
+            : base(options)
+        {
+        }
 
-    public DbSet<Evento> Evento { get; set; }
+        public DbSet<Evento> Eventos { get; set; }
+    }
 }
