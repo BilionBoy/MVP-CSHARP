@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/dhiogo/Projetos/repos/MeuMVP/MeuMVP.csproj": {}
+    "/home/dhiogo/MVP-CSHARP/MeuMVP.csproj": {}
   },
   "projects": {
-    "/home/dhiogo/Projetos/repos/MeuMVP/MeuMVP.csproj": {
+    "/home/dhiogo/MVP-CSHARP/MeuMVP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/dhiogo/Projetos/repos/MeuMVP/MeuMVP.csproj",
+        "projectUniqueName": "/home/dhiogo/MVP-CSHARP/MeuMVP.csproj",
         "projectName": "MeuMVP",
-        "projectPath": "/home/dhiogo/Projetos/repos/MeuMVP/MeuMVP.csproj",
+        "projectPath": "/home/dhiogo/MVP-CSHARP/MeuMVP.csproj",
         "packagesPath": "/home/dhiogo/.nuget/packages/",
-        "outputPath": "/home/dhiogo/Projetos/repos/MeuMVP/obj/",
+        "outputPath": "/home/dhiogo/MVP-CSHARP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/dhiogo/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
