@@ -18,6 +18,11 @@ public class HomeController : ApplicationController // herda do novo controller 
         return View(); // usará _HomeLayout.cshtml
     }
 
+    public IActionResult Landing()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View(); // usará _HomeLayout.cshtml
