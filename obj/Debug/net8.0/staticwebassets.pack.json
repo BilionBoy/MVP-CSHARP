@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/css/admin_application.css"
     },
     {
+      "Id": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/css/landing.css",
+      "PackagePath": "staticwebassets/css/landing.css"
+    },
+    {
       "Id": "/home/dhiogo/Projetos/repos/MeuMVP/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
