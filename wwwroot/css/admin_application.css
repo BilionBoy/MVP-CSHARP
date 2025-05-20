@@ -415,7 +415,7 @@ a:hover {
 .header-user-name {
   font-weight: 600;
   font-size: 0.95rem;
-  color: var(--dark);
+  color: white;
 }
 
 .header-user-role {
