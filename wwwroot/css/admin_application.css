@@ -6,7 +6,7 @@
    Variables
    ========================================= */
 :root {
-  --primary: #000000;
+  --primary: #ffffff;
   --primary-light: #ff6b9c;
   --primary-dark: #e31b5f;
   --primary-hover: #ff5a8f;
@@ -94,7 +94,6 @@ a:hover {
 .sidebar {
   width: var(--sidebar-width);
   background-color: var(--light);
-  border-right: 1px solid rgba(0, 0, 0, 0.05);
   height: 100vh;
   position: fixed;
   top: 0;
@@ -110,6 +109,7 @@ a:hover {
 }
 
 .sidebar-header {
+  background-color: #004b87;
   height: var(--header-height);
   display: flex;
   align-items: center;
@@ -345,7 +345,7 @@ a:hover {
        ========================================= */
 .header {
   height: var(--header-height);
-  background-color: var(--light);
+  background-color: #004b87;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   display: flex;
   align-items: center;
